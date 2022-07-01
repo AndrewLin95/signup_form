@@ -59,7 +59,7 @@ body{
 
 #splashTitle{
     position: absolute;
-    width: 53%;
+    width: 52.8%;
     background: black;
     opacity: 0.6;
     color: white;
@@ -82,16 +82,16 @@ body{
 #right{
     display:flex;
     flex-direction: column;
-    border: solid black;
 }
 
 #top,
 #bottom{
     display:flex;
     flex-direction: column;
-    height: 30vh;
+    height: 37vh;
     background-color: #D7DBDD;
     padding-left: 30px;
+    padding-right: 150px;
 }
 
 #top {
@@ -99,14 +99,44 @@ body{
     padding-bottom: 4em;
 }
 
+.topText{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.topText2{
+    padding-top: 2em;
+}
+
 #bottom{
     justify-content: flex-start;
-    padding-top: 4em;
+    padding-top: 2em;
+    gap: 1em;
+}
+
+.btn{
+    width: 16em;
 }
 
 #middle{
     display:flex;
     flex-direction: column;
-    height:40vh;
+    height:26vh;
     padding-left: 30px;
+    padding-right: 150px;
+}
+
+#middleText{
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+form{
+    gap:2em;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    flex: auto;
 }
